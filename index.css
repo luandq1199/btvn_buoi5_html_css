@@ -1,0 +1,69 @@
+.nav_home{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.carousel-item .content-banner{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 5%;
+    text-align: justify;
+    
+}
+.content-banner h4 {
+    color: green;
+    line-height: 10px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.item-card{
+    padding: 50px 0;
+}
+.item-card .card .card-img-top {
+    height: 140px;
+    width: 140px ;
+} 
+.first-features{
+    padding: 100px 0;
+}
+.first-features h2{
+    padding-top: 70px;
+    font-size: 45px;
+}
+.first-features p{
+    color: #5a5a5a
+}
+
+.list-image{
+    width: 100%;
+    height: 100%;
+}
+
+.list-image:hover{
+    opacity: 0.7;
+}
+
+.footer{
+    background: #17a2b8;
+}
+.footer-content{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 576px){
+    .content-banner h2{
+        font-size: 25px;
+    }
+    .content-banner h4{
+        font-size: 15px;
+    }
+    .content-banner button{
+        height: 40px;
+    }
+   
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
